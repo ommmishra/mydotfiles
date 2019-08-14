@@ -179,3 +179,9 @@ gaps bottom 10
 
 exec xrdb /home/omm/.config/.Xresources
 #exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+bindsym $mod+F12 exec "amixer -q sset Master,0 1+ unmute"
+bindsym $mod+F11 exec "amixer -q sset Master,0 1- unmute"
+
+
+
