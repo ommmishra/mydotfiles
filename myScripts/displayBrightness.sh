@@ -1,1 +1,1 @@
-root@host:~# echo 100 > /sys/class/backlight/intel_backlight/brightness
+echo 100 > /sys/class/backlight/intel_backlight/brightness
